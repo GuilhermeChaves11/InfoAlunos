@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>InfoAlunos - Universidade da Madeira</title>
+  <link rel="stylesheet" href="cursoatividadesstyle.css" />
+</head>
+<body>
+
+  <!-- SIDEBAR DEFAULT COMPLETA -->
+  <nav class="sidebar">
+    <div class="sidebar-header">Universidade da Madeira</div>
+    <ul class="sidebar-nav">
+      <li><a href="layoutprincipal.html">Início</a></li>
+
+      <li class="has-submenu">
+        <a href="#">Geral <span class="arrow">▸</span></a>
+        <ul class="submenu">
+          <li><a href="geralprocessos.html">Processos</a></li>
+          <li><a href="geraldadospessoais.html">Dados Pessoais</a></li>
+          <li><a href="geralprivacidade.html">Privacidade</a></li>
+          <li><a href="geralajuda.html">Ajuda</a></li>
+        </ul>
+      </li>
+
+      <li class="has-submenu">
+        <a href="#">Serviços <span class="arrow">▸</span></a>
+        <ul class="submenu">
+          <li><a href="servicospagamentos.html">Pagamentos</a></li>
+          <li><a href="servicosmatriculas.html">Matrículas/Inscrições</a></li>
+          <li><a href="servicosinscricao.html">Inscrição em Turmas</a></li>
+          <li><a href="servicosrequerimentos.html">Requerimentos</a></li>
+          <li><a href="servicoscartao.html">Cartão Universitário</a></li>
+          <li><a href="https://www.uma.pt/sobre/servico-apoio-estudantes/accao-social/?IDM=PT&ID0=1766420597&ID1=&ID2=500&ID3=2b94810ebffe923a9ea95b09896adb8a">SASUMa-Bolsas</a></li>
+        </ul>
+      </li>
+
+      <li class="has-submenu">
+        <a href="#">Concursos <span class="arrow">▸</span></a>
+        <ul class="submenu">
+          <li><a href="concursoscandidaturas.html">Candidaturas</a></li>
+        </ul>
+      </li>
+
+      <li class="has-submenu">
+        <a href="#">Avaliação <span class="arrow">▸</span></a>
+        <ul class="submenu">
+          <li><a href="avaliacaopautas.html">Pautas</a></li>
+          <li><a href="avaliacaoreclamacao.html">Reclamação de Nota</a></li>
+          <li><a href="avaliacaoinqueritos.html">Inquéritos</a></li>
+          <li><a href="avaliacaoresultados.html">Resultados de Inquéritos</a></li>
+          <li><a href="avaliacaoraides.html">Inquérito RAIDES</a></li>
+        </ul>
+      </li>
+
+      <li class="has-submenu">
+        <a href="#">Creditações <span class="arrow">▸</span></a>
+        <ul class="submenu">
+          <li><a href="creditacoeslista.html">Lista de Processos</a></li>
+          <li><a href="creditacoesnovo.html">Novo Processo</a></li>
+        </ul>
+      </li>
+
+      <li class="has-submenu">
+        <a href="#">Documentos <span class="arrow">▸</span></a>
+        <ul class="submenu">
+          <li><a href="documentosacademicos.html">Académicos</a></li>
+          <li><a href="documentosdeclaracoes.html">Declarações</a></li>
+        </ul>
+      </li>
+
+      <li class="has-submenu">
+        <a href="#">Aula <span class="arrow">▸</span></a>
+        <ul class="submenu">
+          <li><a href="aulapresenca.html">Marcar Presença</a></li>
+          <li><a href="aulacalendario.html">Calendário</a></li>
+          <li><a href="aulasumarios.html">Sumários</a></li>
+        </ul>
+      </li>
+
+      <li class="has-submenu">
+        <a href="#">Disciplina <span class="arrow">▸</span></a>
+        <ul class="submenu">
+          <li><a href="disciplinaficha.html">Ficha</a></li>
+          <li><a href="disciplinaprograma.html">Programa</a></li>
+          <li><a href="disciplinaficheiros.html">Ficheiros</a></li>
+        </ul>
+      </li>
+
+      <li class="has-submenu">
+        <a href="#">Curso <span class="arrow">▸</span></a>
+        <ul class="submenu">
+          <li><a href="cursocurricular.html">Ficha Curricular</a></li>
+          <li><a href="cursohorarios.html">Horários</a></li>
+          <li><a href="cursohistoricomatriculas.html">Histórico de Matrículas/Inscrições</a></li>
+          <li><a href="cursohistoricodisciplinas.html">Histórico de Disciplinas Aprovadas</a></li>
+          <li><a href="cursotranscricao.html">Transição para Bolonha</a></li>
+          <li><a href="cursoplano.html">Plano de Conclusão</a></li>
+          <li><a href="cursoquadro.html">Quadro de Prescrição</a></li>
+          <li><a href="cursoatividades.html">Actividades Académicas do Aluno</a></li>
+        </ul>
+      </li>
+
+      <li class="has-submenu">
+        <a href="#">Instituição <span class="arrow">▸</span></a>
+        <ul class="submenu">
+          <li><a href="instituicaoestrutura.html">Estrutura Orgânica</a></li>
+          <li><a href="instituicaoeleicoes.html">Eleições</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- MAIN CONTENT -->
+  <div class="main-content">
+    <div class="top-bar">
+      <div class="top-bar-left">
+        <span class="top-title">InfoAlunos - Serviço de Informação dos Alunos - v3.1.4</span>
+      </div>
+      <div class="top-bar-right">
+        <div class="top-links">
+          <a href="#">[ O meu Correio ]</a>
+          <a href="#">[ O meu Horário ]</a>
+          <div class="dropdown">
+            <button class="top-action-btn">Matrículas/Inscrições ▼</button>
+            <div class="dropdown-content">
+              <a href="#">Inscrição em Turmas</a>
+              <a href="#">Inscrição em Exames</a>
+              <a href="#">Renovar Matrícula</a>
+              <a href="#">Declaração de Inscrição</a>
+              <a href="#">Histórico Escolar</a>
+            </div>
+          </div>
+          <div class="user-info">
+            <span class="lang">PT | EN</span>
+            <div class="user-avatar">
+              <img src="imagens/perfil.jpg" alt="User" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main class="main-content">
+  <section class="panel">
+    <h1 class="section-title">Editar Actividades Académicas do Aluno</h1>
+    <p class="info-text">
+      Nesta área o aluno deve introduzir, caso existam, as actividades académicas (máximo de 10) em que esteve envolvido, para inclusão no Suplemento ao Diploma. As actividades são descritas em Português 🇵🇹 e Inglês 🇬🇧 e devem ser entregues com documentos comprovativos ao Diretor de Curso.
+    </p>
+  </section>
+
+  <section class="panel">
+    <h2 class="section-subtitle">Actividades Académicas</h2>
+    <form class="activity-form">
+      <fieldset class="activity-block">
+        <legend>Actividade 1</legend>
+        <label>Tipo de Actividade:</label>
+        <input type="text" name="tipo1" />
+        <label>Local (PT) 🇵🇹:</label>
+        <input type="text" name="local_pt1" />
+        <label>Descrição (PT):</label>
+        <textarea name="descricao_pt1"></textarea>
+        <label>Local (EN) 🇬🇧:</label>
+        <input type="text" name="local_en1" />
+        <label>Descrição (EN):</label>
+        <textarea name="descricao_en1"></textarea>
+        <label>Data Início:</label>
+        <input type="date" name="inicio1" />
+        <label>Data Fim:</label>
+        <input type="date" name="fim1" />
+      </fieldset>
+
+      <fieldset class="activity-block">
+        <legend>Actividade 2</legend>
+        <label>Tipo de Actividade:</label>
+        <input type="text" name="tipo2" />
+        <label>Local (PT) 🇵🇹:</label>
+        <input type="text" name="local_pt2" />
+        <label>Descrição (PT):</label>
+        <textarea name="descricao_pt2"></textarea>
+        <label>Local (EN) 🇬🇧:</label>
+        <input type="text" name="local_en2" />
+        <label>Descrição (EN):</label>
+        <textarea name="descricao_en2"></textarea>
+        <label>Data Início:</label>
+        <input type="date" name="inicio2" />
+        <label>Data Fim:</label>
+        <input type="date" name="fim2" />
+      </fieldset>
+
+      <fieldset class="activity-block">
+        <legend>Actividade 3</legend>
+        <label>Tipo de Actividade:</label>
+        <input type="text" name="tipo3" />
+        <label>Local (PT) 🇵🇹:</label>
+        <input type="text" name="local_pt3" />
+        <label>Descrição (PT):</label>
+        <textarea name="descricao_pt3"></textarea>
+        <label>Local (EN) 🇬🇧:</label>
+        <input type="text" name="local_en3" />
+        <label>Descrição (EN):</label>
+        <textarea name="descricao_en3"></textarea>
+        <label>Data Início:</label>
+        <input type="date" name="inicio3" />
+        <label>Data Fim:</label>
+        <input type="date" name="fim3" />
+      </fieldset>
+
+      <fieldset class="activity-block">
+        <legend>Actividade 4</legend>
+        <label>Tipo de Actividade:</label>
+        <input type="text" name="tipo4" />
+        <label>Local (PT) 🇵🇹:</label>
+        <input type="text" name="local_pt4" />
+        <label>Descrição (PT):</label>
+        <textarea name="descricao_pt4"></textarea>
+        <label>Local (EN) 🇬🇧:</label>
+        <input type="text" name="local_en4" />
+        <label>Descrição (EN):</label>
+        <textarea name="descricao_en4"></textarea>
+        <label>Data Início:</label>
+        <input type="date" name="inicio4" />
+        <label>Data Fim:</label>
+        <input type="date" name="fim4" />
+      </fieldset>
+
+      <fieldset class="activity-block">
+        <legend>Actividade 5</legend>
+        <label>Tipo de Actividade:</label>
+        <input type="text" name="tipo5" />
+        <label>Local (PT) 🇵🇹:</label>
+        <input type="text" name="local_pt5" />
+        <label>Descrição (PT):</label>
+        <textarea name="descricao_pt5"></textarea>
+        <label>Local (EN) 🇬🇧:</label>
+        <input type="text" name="local_en5" />
+        <label>Descrição (EN):</label>
+        <textarea name="descricao_en5"></textarea>
+        <label>Data Início:</label>
+        <input type="date" name="inicio5" />
+        <label>Data Fim:</label>
+        <input type="date" name="fim5" />
+      </fieldset>
+
+      <fieldset class="activity-block">
+        <legend>Actividade 6</legend>
+        <label>Tipo de Actividade:</label>
+        <input type="text" name="tipo6" />
+        <label>Local (PT) 🇵🇹:</label>
+        <input type="text" name="local_pt6" />
+        <label>Descrição (PT):</label>
+        <textarea name="descricao_pt6"></textarea>
+        <label>Local (EN) 🇬🇧:</label>
+        <input type="text" name="local_en6" />
+        <label>Descrição (EN):</label>
+        <textarea name="descricao_en6"></textarea>
+        <label>Data Início:</label>
+        <input type="date" name="inicio6" />
+        <label>Data Fim:</label>
+        <input type="date" name="fim6" />
+      </fieldset>
+
+      <fieldset class="activity-block">
+        <legend>Actividade 7</legend>
+        <label>Tipo de Actividade:</label>
+        <input type="text" name="tipo7" />
+        <label>Local (PT) 🇵🇹:</label>
+        <input type="text" name="local_pt7" />
+        <label>Descrição (PT):</label>
+        <textarea name="descricao_pt7"></textarea>
+        <label>Local (EN) 🇬🇧:</label>
+        <input type="text" name="local_en7" />
+        <label>Descrição (EN):</label>
+        <textarea name="descricao_en7"></textarea>
+        <label>Data Início:</label>
+        <input type="date" name="inicio7" />
+        <label>Data Fim:</label>
+        <input type="date" name="fim7" />
+      </fieldset>
+
+      <fieldset class="activity-block">
+        <legend>Actividade 8</legend>
+        <label>Tipo de Actividade:</label>
+        <input type="text" name="tipo8" />
+        <label>Local (PT) 🇵🇹:</label>
+        <input type="text" name="local_pt8" />
+        <label>Descrição (PT):</label>
+        <textarea name="descricao_pt8"></textarea>
+        <label>Local (EN) 🇬🇧:</label>
+        <input type="text" name="local_en8" />
+        <label>Descrição (EN):</label>
+        <textarea name="descricao_en8"></textarea>
+        <label>Data Início:</label>
+        <input type="date" name="inicio8" />
+        <label>Data Fim:</label>
+        <input type="date" name="fim8" />
+      </fieldset>
+
+      <fieldset class="activity-block">
+        <legend>Actividade 9</legend>
+        <label>Tipo de Actividade:</label>
+        <input type="text" name="tipo9" />
+        <label>Local (PT) 🇵🇹:</label>
+        <input type="text" name="local_pt9" />
+        <label>Descrição (PT):</label>
+        <textarea name="descricao_pt9"></textarea>
+        <label>Local (EN) 🇬🇧:</label>
+        <input type="text" name="local_en9" />
+        <label>Descrição (EN):</label>
+        <textarea name="descricao_en9"></textarea>
+        <label>Data Início:</label>
+        <input type="date" name="inicio9" />
+        <label>Data Fim:</label>
+        <input type="date" name="fim9" />
+      </fieldset>
+
+      <fieldset class="activity-block">
+        <legend>Actividade 10</legend>
+        <label>Tipo de Actividade:</label>
+        <input type="text" name="tipo10" />
+        <label>Local (PT) 🇵🇹:</label>
+        <input type="text" name="local_pt10" />
+        <label>Descrição (PT):</label>
+        <textarea name="descricao_pt10"></textarea>
+        <label>Local (EN) 🇬
+
+  <!-- FOOTER DEFAULT -->
+  <footer class="site-footer">
+      <div class="footer-container">
+        <div class="footer-text-group">
+          <p><strong>© Universidade da Madeira</strong> - Gabinete de Desenvolvimento de Aplicações Informáticas</p>
+          <p><a href="#">Proteção de Dados e Termos de Utilização</a></p>
+          <p>Colégio dos Jesuítas, 9000-081 Funchal | Tel: +351 291 209400</p>
+        </div>
+        <div class="footer-performance">
+          <p>Processado em 0.06s</p>
+          <p>powered by <strong>hydra</strong></p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+</body>
+</html>
